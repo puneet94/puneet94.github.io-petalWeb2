@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+
+
+
+
+<style>
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("./image.PNG");
+    position: relative;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mainContent{
+  text-align: center;
+}
+.imageContent{
+  display: inline-block;
+  width: 49%;
+}
+.phoneContent{
+  display: inline-block;
+  width:49%;
+  text-align:center;
+      vertical-align: top;
+}
+h1,h5{
+  color: white;
+}
+a{
+  text-decoration: none;
+}
+.playStoreImage{
+  width: 50%;
+  height: 100px;
+}
+.phoneImage{
+  width: 300px;
+  margin-top: 50px;
+}
+@media only screen and (max-width: 600px) {
+  .playStoreImage{
+    width: 70%;
+    height: 100px;
+  }
+  .imageContent{
+    display: block;
+    text-align: center;
+    width: 100%;
+
+  }
+  .phoneContent{
+    display: block;
+    text-align:center;
+    width: 100%;
+  }
+  .phoneImage{
+    margin-top: 10px;
+    width: 90%;
+  }
+  .mainContent{
+    position: relative;
+
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="bg">
+  <div class="mainContent">
+    <div class="imageContent">
+        <img src="./icon.png" alt="">
+        <h1>Petal Chat</h1>
+        <h5>Bringing people Closer</h5>
+        <a href="https://play.google.com/store/apps/details?id=com.ionicframework.petalchat206862">
+          <img class="playStoreImage" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" alt="">
+        </a>
+        <a href="./policy.html">
+          <h1>Privacy Policy</h1>
+        </a>
+
+    </div>
+    <div class="phoneContent">
+      <img class="phoneImage" src="./transparent.png" alt="">
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
